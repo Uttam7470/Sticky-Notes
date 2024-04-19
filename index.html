@@ -1,73 +1,44 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
- 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sticky Notes</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <h1 class="main-heading">🚀 Welcome to Sticky Notes Project🔥</h1>
-    <div id="wrapper">
-        <div id="notes">
-            <div class="left">
-                <div>
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Enter your note"></textarea>
-
-                    <div class="color-styling">
-                        <div>
-                            <label for="">Background Color</label>
-                            <input type="color" name="" id="bg-color" value="#00000">
-                        </div>
-
-                        <div>
-                            <label for="">Text Color</label>
-                            <input type="color" name="" id="txt-color" value="#fffff">
-                        </div>
-                    </div>
-
-
-                    <div class="button">
-                        <button>Add Note</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="right">
-                <h2>Your All notes are available here</h2>
-            </div>
-        </div>
-    </div>
-
-
-    <script src="./script.js"></script>
-</body>
-
-</html> -->
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-    <div id="notes">
+    <link rel="stylesheet" href="style2.css">
+  </head>
+  <body>
+    <div id="wrapper">
+        <h1>Sticky Notes</h1>
+      <div id="notes">
         <div class="left">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Write a text here"></textarea>
-            <div class="styling">
-                <label for="" id="bg">Bg Color</label><input type="color" value="#000000" >
-                <label for="" id="text">Text Color</label><input type="color"  value="#ffffff">
-            </div>
-            <button>Add Notes</button>     
-    </div>
-        <div class="right"></div>
-    </div>
+          <div class="txtarea">
+            <textarea
+              placeholder="write your note"
+              id=""
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <div class="color">
+            <label for="">Background Color :-</label>
+            <input type="color" name="" id="bg" value="#000000" />
+            <label for="">Text Color :-</label>
+            <input type="color" name="" id="text" value="#ffffff" />
+          </div>
+          <div class="bttn">
+            <button >Add Notes</button>
+        </div>
+        </div>
 
-    <script src="script.js"></script>
-</body>
+        <div class="right">
+            <h2>Your Notes</h2>
+            <!-- <div class="right-txt">
+
+            </div> -->
+        </div>
+       
+      </div>
+    </div>
+    <script src="script2.js"></script>
+  </body>
 </html>
